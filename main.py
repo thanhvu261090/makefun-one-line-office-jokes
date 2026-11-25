@@ -20,6 +20,7 @@ def main() -> None:
     with open("/output/entry.txt", "w", encoding="utf-8") as f:
         f.write(text)
     print(f"Wrote {len(text)} characters to /output/entry.txt")
+    print(f"Entry: {text}")
 
 
 if __name__ == "__main__":
